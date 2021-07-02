@@ -3,7 +3,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    background: linear-gradient(240deg, #0fc9aa,#eef88e,#dd4987);
+    background: linear-gradient(240deg, #0fc9aa,#eef88e,#34e98f,lightpink);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@ body{
     background-color: aliceblue;
     border: 1px solid black;
 }
-.btn.right{
+.btn.correct{
     background-color: #0fc9aa;
     color: black;
 }
@@ -82,4 +82,9 @@ body{
 
 .behind{
     display: none;
+}
+.question{
+    padding: 20px;
+    font-size: 30px;
+    white-space: pre-line;
 }
